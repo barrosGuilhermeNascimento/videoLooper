@@ -1,8 +1,9 @@
+from re import L
 import tkinter as tk
-from tkinter.constants import S
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 
 from app import VideoCreation
+
 
 class Application(tk.Frame):
     def __init__(self, master=None):
